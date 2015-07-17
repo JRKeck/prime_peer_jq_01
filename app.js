@@ -21,12 +21,7 @@ function Person (){
 }
 function getSex (){
 	var sex = randomNumber(1,2);
-	if (sex == 1){
-		sex = "Male";
-		}
-		else{
-			sex = "Female";
-		}
+	sex = (sex == 1) ? "Male" : "Female";
 	return sex;
 }
 function getName (sex){
