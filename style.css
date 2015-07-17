@@ -1,0 +1,13 @@
+.person {
+	margin-top: 40px;
+}
+.person > div {
+	padding: 5px;
+}
+.person > div:nth-child(odd) {
+	text-align: right;
+}
+.person div.footer {
+	text-align: center;
+	padding: 10px 0
+}
